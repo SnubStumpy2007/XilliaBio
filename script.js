@@ -1,6 +1,5 @@
 const submit = () => {
     const ans = document.getElementById("answer").value
-    console.log(ans)
 
     if(ans === "Jude Mathis") {
         const intro = document.getElementById("bio")
@@ -32,5 +31,12 @@ const submit = () => {
         intro.textContent += "Traitor"
         const image = document.getElementById("character-image")
         image.src = "alvin.jpg"        
+    } else {
+        const intro =  document.getElementById("bio")
+        intro.textContent = "Pick a valid character.  All selections are text sensitive"
     }
+}
+
+const reset = () => {
+    location.reload()
 }
