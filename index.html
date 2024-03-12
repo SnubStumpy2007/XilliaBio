@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Tales of Xillia Bio</title>
 </head>
 <body>
     <section class="display">
         <div id="intro">
             <h1 id="instructions">Type in a name from the following names</h1>
-            <ul>
+            <ul class="list">
                 <li>Jude Mathis</li>
                 <li>Milla Maxwell</li>
                 <li>Leia Rolando</li>
@@ -19,10 +19,15 @@
                 <li>Rowen J. Ilbert</li>
                 <li>Alvin</li>
             </ul>
-            <input type="text" id="answer">
-            <button onclick="submit()">Submit</button>
-            <p id="bio"></p>
-            <img id="character-image" src="" alt="">
+            <div class="input-box">
+                <input class="input-text" type="text" id="answer">
+                <button class="btn" onclick="submit()">Submit</button>
+            </div>
+            
+            <div class="return-bio-pic">
+                <p id="bio"></p>
+                <img id="character-image" src="" alt="">
+            </div>
         </div>
         <button onclick="reset()">Reset Webpage</button>
     </section>

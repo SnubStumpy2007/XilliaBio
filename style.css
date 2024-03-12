@@ -1,0 +1,25 @@
+.display {
+    background-color: pink;
+    border: solid;
+    border-color: black;
+}
+
+#instructions {
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+/* 
+.list {
+    padding: 1.5rem;
+} */
+
+li {
+    font-size: 1.5rem;
+    padding: .5rem;
+    padding-left: 1.5rem;
+}
+
+
+.input-box {
+    margin-left: .5rem;
+}

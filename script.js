@@ -76,7 +76,7 @@ const submit = () => {
       break;
     case "Alvin":
       const introAlvin = document.getElementById("bio");
-      introAlvin.textContent += "Milla Maxwell is a god";
+      introAlvin.textContent += "The traitor";
       const imageAlvin = document.getElementById("character-image");
       imageAlvin.src = "alvin.jpg";
       break;
